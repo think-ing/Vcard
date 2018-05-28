@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.myapplication.MainActivity">
+    <item
+        android:id="@+id/id_vCard"
+        android:orderInCategory="100"
+        android:title="打开vCard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/id_CSV"
+        android:orderInCategory="100"
+        android:title="打开CSV"
+        app:showAsAction="never" />
+</menu>
